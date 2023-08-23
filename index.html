@@ -17,7 +17,7 @@
     <div class="wrapper">
       <div class="text-container">
         <p>This is not a real online service!. You know you need something <br>like this in your life to help you
-          realize your deepest dreams. <br>Sign up <em>now</em> to get started. <br><br>You know you want to</p>
+          realize your deepest dreams. <br>Sign up <em>now</em> to get started. <br><br>You <em>know</em> you want to</p>
       </div>
       <div class="container">
         <h2>Registration</h2>
@@ -37,7 +37,7 @@
             </div>
             <div class="input-box">
               <label for="phone">Phone number</label>
-              <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+              <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" minlength="11" maxlength="13" required>
             </div>
             <div class="input-box">
               <label for="password">Password</label>
@@ -63,8 +63,14 @@
           
           
         </form>
-      </div>
+
         
+      </div>
+      <br>
+      <br>
+    <div class="login">Already Have an account?<a href="">log in</a></div>
+
+    <script src="app.js"></script>
   </body>
 
   </html>
