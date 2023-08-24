@@ -9,31 +9,59 @@ body {
   justify-content: center;
   align-items: center;
   justify-content: space-between;
+  font-family: 'Abel', sans-serif;;
   height: 100vh;
-  background-image: url('/image/bg_img.jpg');
 }
+  
+
+.img{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 96%;
+  margin: 1% 1% 1% 1%;
+  background-image: url('./image/david-kovalenko-G85VuTpw6jg-unsplash.jpg');
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  background-size: cover;
+  border-radius: 5px;
+
+  }
+
+  .img-info {
+    font-weight: bold;
+    color: white;
+  }
+
+  a{
+    font-weight: bold;
+    color: gold;
+    font-style: italic;
+  }
 
 .wrapper {
   background-color: azure;
   height: 100vh;
-  width: 55%;
+  width: 50%;
 }
 
-.image-container {
-  width: 45%;
-  height: 150px;
+.logo {
+  width: 100%;
+  height: 110px;
   background-color: rgba(100, 70, 250, 0.1);
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   font-family: Norse;
-  margin-bottom: 300px;
+  margin-top: 90px;
 }
 
 .text-container {
   font-family: sans-serif;
   height: 20%;
+  color: black;
 
 }
 
